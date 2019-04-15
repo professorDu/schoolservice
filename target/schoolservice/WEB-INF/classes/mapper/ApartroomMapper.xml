@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.usts.college.dao.ApartroomMapper">
+  <resultMap id="BaseResultMap" type="com.usts.college.bean.Apartroom">
+    <id column="apartroom_id" jdbcType="INTEGER" property="apartroomId" />
+    <result column="apart_pid" jdbcType="INTEGER" property="apartPid" />
+    <result column="apartroom_abc" jdbcType="VARCHAR" property="apartroomAbc" />
+    <result column="apartroom_dorm" jdbcType="VARCHAR" property="apartroomDorm" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    apartroom_id, apart_pid, apartroom_abc, apartroom_dorm
+  </sql>
+  <select id="selectByExample" parameterType="com.usts.college.bean.ApartroomExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from apartroom
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from apartroom
+    where apartroom_id = #{apartroomId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from apartroom
+    where apartroom_id = #{apartroomId,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.usts.college.bean.ApartroomExample">
+    delete from apartroom
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.usts.college.bean.Apartroom">
+    insert into apartroom (apartroom_id, apart_pid, apartroom_abc, 
+      apartroom_dorm)
+    values (#{apartroomId,jdbcType=INTEGER}, #{apartPid,jdbcType=INTEGER}, #{apartroomAbc,jdbcType=VARCHAR}, 
+      #{apartroomDorm,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.usts.college.bean.Apartroom">
+    insert into apartroom
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="apartroomId != null">
+        apartroom_id,
+      </if>
+      <if test="apartPid != null">
+        apart_pid,
+      </if>
+      <if test="apartroomAbc != null">
+        apartroom_abc,
+      </if>
+      <if test="apartroomDorm != null">
+        apartroom_dorm,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="apartroomId != null">
+        #{apartroomId,jdbcType=INTEGER},
+      </if>
+      <if test="apartPid != null">
+        #{apartPid,jdbcType=INTEGER},
+      </if>
+      <if test="apartroomAbc != null">
+        #{apartroomAbc,jdbcType=VARCHAR},
+      </if>
+      <if test="apartroomDorm != null">
+        #{apartroomDorm,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.usts.college.bean.ApartroomExample" resultType="java.lang.Long">
+    select count(*) from apartroom
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update apartroom
+    <set>
+      <if test="record.apartroomId != null">
+        apartroom_id = #{record.apartroomId,jdbcType=INTEGER},
+      </if>
+      <if test="record.apartPid != null">
+        apart_pid = #{record.apartPid,jdbcType=INTEGER},
+      </if>
+      <if test="record.apartroomAbc != null">
+        apartroom_abc = #{record.apartroomAbc,jdbcType=VARCHAR},
+      </if>
+      <if test="record.apartroomDorm != null">
+        apartroom_dorm = #{record.apartroomDorm,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update apartroom
+    set apartroom_id = #{record.apartroomId,jdbcType=INTEGER},
+      apart_pid = #{record.apartPid,jdbcType=INTEGER},
+      apartroom_abc = #{record.apartroomAbc,jdbcType=VARCHAR},
+      apartroom_dorm = #{record.apartroomDorm,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.usts.college.bean.Apartroom">
+    update apartroom
+    <set>
+      <if test="apartPid != null">
+        apart_pid = #{apartPid,jdbcType=INTEGER},
+      </if>
+      <if test="apartroomAbc != null">
+        apartroom_abc = #{apartroomAbc,jdbcType=VARCHAR},
+      </if>
+      <if test="apartroomDorm != null">
+        apartroom_dorm = #{apartroomDorm,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where apartroom_id = #{apartroomId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.usts.college.bean.Apartroom">
+    update apartroom
+    set apart_pid = #{apartPid,jdbcType=INTEGER},
+      apartroom_abc = #{apartroomAbc,jdbcType=VARCHAR},
+      apartroom_dorm = #{apartroomDorm,jdbcType=VARCHAR}
+    where apartroom_id = #{apartroomId,jdbcType=INTEGER}
+  </update>
+</mapper>

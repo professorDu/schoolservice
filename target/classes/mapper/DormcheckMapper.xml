@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.usts.college.dao.DormcheckMapper">
+  <resultMap id="BaseResultMap" type="com.usts.college.bean.Dormcheck">
+    <id column="dormcheck_id" jdbcType="INTEGER" property="dormcheckId" />
+    <result column="dormcheck_message" jdbcType="VARCHAR" property="dormcheckMessage" />
+    <result column="dormcheck_date" jdbcType="DATE" property="dormcheckDate" />
+    <result column="apartroom_pid" jdbcType="INTEGER" property="apartroomPid" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    dormcheck_id, dormcheck_message, dormcheck_date, apartroom_pid
+  </sql>
+  <select id="selectByExample" parameterType="com.usts.college.bean.DormcheckExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from dormcheck
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from dormcheck
+    where dormcheck_id = #{dormcheckId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from dormcheck
+    where dormcheck_id = #{dormcheckId,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.usts.college.bean.DormcheckExample">
+    delete from dormcheck
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.usts.college.bean.Dormcheck">
+    insert into dormcheck (dormcheck_id, dormcheck_message, dormcheck_date, 
+      apartroom_pid)
+    values (#{dormcheckId,jdbcType=INTEGER}, #{dormcheckMessage,jdbcType=VARCHAR}, #{dormcheckDate,jdbcType=DATE}, 
+      #{apartroomPid,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.usts.college.bean.Dormcheck">
+    insert into dormcheck
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="dormcheckId != null">
+        dormcheck_id,
+      </if>
+      <if test="dormcheckMessage != null">
+        dormcheck_message,
+      </if>
+      <if test="dormcheckDate != null">
+        dormcheck_date,
+      </if>
+      <if test="apartroomPid != null">
+        apartroom_pid,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="dormcheckId != null">
+        #{dormcheckId,jdbcType=INTEGER},
+      </if>
+      <if test="dormcheckMessage != null">
+        #{dormcheckMessage,jdbcType=VARCHAR},
+      </if>
+      <if test="dormcheckDate != null">
+        #{dormcheckDate,jdbcType=DATE},
+      </if>
+      <if test="apartroomPid != null">
+        #{apartroomPid,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.usts.college.bean.DormcheckExample" resultType="java.lang.Long">
+    select count(*) from dormcheck
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update dormcheck
+    <set>
+      <if test="record.dormcheckId != null">
+        dormcheck_id = #{record.dormcheckId,jdbcType=INTEGER},
+      </if>
+      <if test="record.dormcheckMessage != null">
+        dormcheck_message = #{record.dormcheckMessage,jdbcType=VARCHAR},
+      </if>
+      <if test="record.dormcheckDate != null">
+        dormcheck_date = #{record.dormcheckDate,jdbcType=DATE},
+      </if>
+      <if test="record.apartroomPid != null">
+        apartroom_pid = #{record.apartroomPid,jdbcType=INTEGER},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update dormcheck
+    set dormcheck_id = #{record.dormcheckId,jdbcType=INTEGER},
+      dormcheck_message = #{record.dormcheckMessage,jdbcType=VARCHAR},
+      dormcheck_date = #{record.dormcheckDate,jdbcType=DATE},
+      apartroom_pid = #{record.apartroomPid,jdbcType=INTEGER}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.usts.college.bean.Dormcheck">
+    update dormcheck
+    <set>
+      <if test="dormcheckMessage != null">
+        dormcheck_message = #{dormcheckMessage,jdbcType=VARCHAR},
+      </if>
+      <if test="dormcheckDate != null">
+        dormcheck_date = #{dormcheckDate,jdbcType=DATE},
+      </if>
+      <if test="apartroomPid != null">
+        apartroom_pid = #{apartroomPid,jdbcType=INTEGER},
+      </if>
+    </set>
+    where dormcheck_id = #{dormcheckId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.usts.college.bean.Dormcheck">
+    update dormcheck
+    set dormcheck_message = #{dormcheckMessage,jdbcType=VARCHAR},
+      dormcheck_date = #{dormcheckDate,jdbcType=DATE},
+      apartroom_pid = #{apartroomPid,jdbcType=INTEGER}
+    where dormcheck_id = #{dormcheckId,jdbcType=INTEGER}
+  </update>
+</mapper>

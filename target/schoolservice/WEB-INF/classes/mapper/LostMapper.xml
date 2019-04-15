@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.usts.college.dao.LostMapper">
+  <resultMap id="BaseResultMap" type="com.usts.college.bean.Lost">
+    <id column="lost_id" jdbcType="INTEGER" property="lostId" />
+    <result column="lost_title" jdbcType="VARCHAR" property="lostTitle" />
+    <result column="lost_message" jdbcType="VARCHAR" property="lostMessage" />
+    <result column="lost_date" jdbcType="DATE" property="lostDate" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    lost_id, lost_title, lost_message, lost_date
+  </sql>
+  <select id="selectByExample" parameterType="com.usts.college.bean.LostExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from lost
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from lost
+    where lost_id = #{lostId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from lost
+    where lost_id = #{lostId,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.usts.college.bean.LostExample">
+    delete from lost
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.usts.college.bean.Lost">
+    insert into lost (lost_id, lost_title, lost_message, 
+      lost_date)
+    values (#{lostId,jdbcType=INTEGER}, #{lostTitle,jdbcType=VARCHAR}, #{lostMessage,jdbcType=VARCHAR}, 
+      #{lostDate,jdbcType=DATE})
+  </insert>
+  <insert id="insertSelective" parameterType="com.usts.college.bean.Lost">
+    insert into lost
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="lostId != null">
+        lost_id,
+      </if>
+      <if test="lostTitle != null">
+        lost_title,
+      </if>
+      <if test="lostMessage != null">
+        lost_message,
+      </if>
+      <if test="lostDate != null">
+        lost_date,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="lostId != null">
+        #{lostId,jdbcType=INTEGER},
+      </if>
+      <if test="lostTitle != null">
+        #{lostTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="lostMessage != null">
+        #{lostMessage,jdbcType=VARCHAR},
+      </if>
+      <if test="lostDate != null">
+        #{lostDate,jdbcType=DATE},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.usts.college.bean.LostExample" resultType="java.lang.Long">
+    select count(*) from lost
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update lost
+    <set>
+      <if test="record.lostId != null">
+        lost_id = #{record.lostId,jdbcType=INTEGER},
+      </if>
+      <if test="record.lostTitle != null">
+        lost_title = #{record.lostTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="record.lostMessage != null">
+        lost_message = #{record.lostMessage,jdbcType=VARCHAR},
+      </if>
+      <if test="record.lostDate != null">
+        lost_date = #{record.lostDate,jdbcType=DATE},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update lost
+    set lost_id = #{record.lostId,jdbcType=INTEGER},
+      lost_title = #{record.lostTitle,jdbcType=VARCHAR},
+      lost_message = #{record.lostMessage,jdbcType=VARCHAR},
+      lost_date = #{record.lostDate,jdbcType=DATE}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.usts.college.bean.Lost">
+    update lost
+    <set>
+      <if test="lostTitle != null">
+        lost_title = #{lostTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="lostMessage != null">
+        lost_message = #{lostMessage,jdbcType=VARCHAR},
+      </if>
+      <if test="lostDate != null">
+        lost_date = #{lostDate,jdbcType=DATE},
+      </if>
+    </set>
+    where lost_id = #{lostId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.usts.college.bean.Lost">
+    update lost
+    set lost_title = #{lostTitle,jdbcType=VARCHAR},
+      lost_message = #{lostMessage,jdbcType=VARCHAR},
+      lost_date = #{lostDate,jdbcType=DATE}
+    where lost_id = #{lostId,jdbcType=INTEGER}
+  </update>
+</mapper>
