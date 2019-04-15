@@ -6,7 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a112df-0cae-407b-8f27-5142e271e1aa" name="Default" comment="" />
+    <list default="true" id="75a112df-0cae-407b-8f27-5142e271e1aa" name="Default" comment="毕业">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/read.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,11 +70,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminManager.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="adminManager.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/views/adminManager.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
+            <state relative-caret-position="-67">
               <caret line="618" selection-start-line="618" selection-end-line="618" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/read.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -116,6 +132,9 @@
       <find>edit_btn</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -148,6 +167,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/views/adminLife.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/adminApart.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/adminManager.jsp" />
+        <option value="$PROJECT_DIR$/src/read.md" />
       </list>
     </option>
   </component>
@@ -185,6 +205,9 @@
     <option name="width" value="993" />
     <option name="height" value="1044" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -214,47 +237,7 @@
               <item name="schoolservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="schoolservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="schoolservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="college" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="schoolservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="schoolservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="schoolservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="schoolservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="schoolservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="schoolservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="schoolservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="schoolservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -477,7 +460,7 @@
       <workItem from="1554970356494" duration="2619000" />
       <workItem from="1554985874517" duration="9261000" />
       <workItem from="1555254568340" duration="243000" />
-      <workItem from="1555291093412" duration="7130000" />
+      <workItem from="1555291093412" duration="7555000" />
     </task>
     <servers />
   </component>
@@ -496,7 +479,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49376000" />
+    <option name="totallyTimeSpent" value="49801000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -530,10 +513,10 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32920355" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="11" visible="true" weight="0.35752213" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.35752213" />
       <window_info anchor="bottom" id="Spring" order="10" weight="0.32920355" />
-      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32920355" />
+      <window_info anchor="bottom" id="Terminal" order="6" visible="true" weight="0.32978722" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28698465" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="6" side_tool="true" />
@@ -567,13 +550,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/controller/ToLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/adminManager.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10849">
@@ -884,8 +860,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/adminManager.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
+        <state relative-caret-position="-67">
           <caret line="618" selection-start-line="618" selection-end-line="618" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/read.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
