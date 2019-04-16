@@ -2,6 +2,9 @@ package com.usts.college.bean;
 
 import lombok.Data;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Data
 public class Apartroom {
     private Integer apartroomId;
@@ -13,4 +16,6 @@ public class Apartroom {
     private String apartroomDorm;
 
     private Apart apart;
+
+    private List<Student> students = new ArrayList<>();
 }

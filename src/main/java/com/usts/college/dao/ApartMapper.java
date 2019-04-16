@@ -18,6 +18,12 @@ public interface ApartMapper {
 
     List<Apart> selectByExample(ApartExample example);
 
+    //查询一个楼栋含有多少个房间
+    List<Apart> selectByExampleWithAparts(ApartExample example);
+
+    //查询一个楼栋含有多少个房间,一个房间多少个人
+    List<Apart> selectByExampleWithApartsAndStudents(ApartExample example);
+
     Apart selectByPrimaryKey(Integer apartId);
 
     int updateByExampleSelective(@Param("record") Apart record, @Param("example") ApartExample example);

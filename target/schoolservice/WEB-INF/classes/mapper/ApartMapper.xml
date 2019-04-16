@@ -5,6 +5,18 @@
     <id column="apart_id" jdbcType="INTEGER" property="apartId" />
     <result column="apart_apa" jdbcType="VARCHAR" property="apartApa" />
   </resultMap>
+  <!--查询一个楼栋有多少个房间-->
+  <resultMap id="WithApartsResultMap" type="com.usts.college.bean.Apart" extends="BaseResultMap">
+    <collection property="apartrooms" ofType="com.usts.college.bean.Apartroom"
+                resultMap="com.usts.college.dao.ApartroomMapper.BaseResultMap">
+    </collection>
+  </resultMap>
+<!--查询一个楼栋中一个房间里多少个学生-->
+  <resultMap id="WithApartsAndStudentsResultMap" type="com.usts.college.bean.Apart" extends="BaseResultMap">
+    <collection property="apartrooms" ofType="com.usts.college.bean.Apartroom"
+                resultMap="com.usts.college.dao.ApartroomMapper.StudentsResultMap">
+    </collection>
+  </resultMap>
   <sql id="Example_Where_Clause">
     <where>
       <foreach collection="oredCriteria" item="criteria" separator="or">
@@ -66,6 +78,46 @@
   <sql id="Base_Column_List">
     apart_id, apart_apa
   </sql>
+  <sql id="WithAparts_Column_List">
+    ap.apart_apa,ar.apartroom_abc,ar.apartroom_dorm
+  </sql>
+  <sql id="WithApartsAndStudents">
+   s.*,ar.*,ap.*
+  </sql>
+
+  <!--List<Apart> selectByExampleWithApartsAndStudents(ApartExample example);-->
+  <select id="selectByExampleWithApartsAndStudents"  resultMap="WithApartsAndStudentsResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="WithApartsAndStudents" />
+    from student s
+    INNER JOIN apartroom ar on s.apartroom_pid=ar.apartroom_id
+    INNER JOIN apart ap on ap.apart_id=ar.apart_pid
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <!--List<Apart> selectByExampleWithAparts(ApartExample example);-->
+  <select id="selectByExampleWithAparts"  resultMap="WithApartsResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="WithAparts_Column_List" />
+    from apart ap
+    INNER JOIN apartroom ar on ap.apart_id=ar.apart_pid
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
   <select id="selectByExample" parameterType="com.usts.college.bean.ApartExample" resultMap="BaseResultMap">
     select
     <if test="distinct">

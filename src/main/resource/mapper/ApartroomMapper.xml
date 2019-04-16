@@ -10,6 +10,13 @@
   <resultMap id="DemoResultMap" type="com.usts.college.bean.Apartroom" extends="BaseResultMap">
     <association property="apart" javaType="com.usts.college.bean.Apart" resultMap="com.usts.college.dao.ApartMapper.BaseResultMap"></association>
   </resultMap>
+  <!--查询一个楼栋中一个房间里多少个学生-->
+  <resultMap id="StudentsResultMap" type="com.usts.college.bean.Apartroom" extends="BaseResultMap">
+    <collection property="students" ofType="com.usts.college.bean.Student"
+                resultMap="com.usts.college.dao.StudentMapper.BaseResultMap">
+    </collection>
+  </resultMap>
+
   <sql id="Example_Where_Clause">
     <where>
       <foreach collection="oredCriteria" item="criteria" separator="or">

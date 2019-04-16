@@ -87,8 +87,8 @@
     </if>
     <include refid="WithRoomAndApart_Column_List" />
     from student s
-    LEFT JOIN apartroom ar on s.apartroom_pid=ar.apartroom_id
-    LEFT JOIN apart ap on ap.apart_id=ar.apart_pid
+    INNER JOIN apartroom ar on s.apartroom_pid=ar.apartroom_id
+    INNER JOIN apart ap on ap.apart_id=ar.apart_pid
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
@@ -100,8 +100,8 @@
     select
     <include refid="WithRoomAndApart_Column_List" />
     from student s
-    LEFT JOIN apartroom ar on s.apartroom_pid=ar.apartroom_id
-    LEFT JOIN apart ap on ap.apart_id=ar.apart_pid
+    INNER JOIN apartroom ar on s.apartroom_pid=ar.apartroom_id
+    INNER JOIN apart ap on ap.apart_id=ar.apart_pid
     where stu_id = #{stuId,jdbcType=INTEGER}
   </select>
   <select id="selectByExample" parameterType="com.usts.college.bean.StudentExample" resultMap="BaseResultMap">

@@ -1,9 +1,6 @@
 package com.usts.college.test;
 
-import com.usts.college.bean.Apart;
-import com.usts.college.bean.Dormcheck;
-import com.usts.college.bean.Dormmanager;
-import com.usts.college.bean.Student;
+import com.usts.college.bean.*;
 import com.usts.college.dao.ApartMapper;
 import com.usts.college.dao.DormcheckMapper;
 import com.usts.college.dao.DormmanagerMapper;
@@ -46,5 +43,14 @@ public class MapperTest {
             System.out.println("编号："+dorm.getApartroom().getApartroomAbc());
             System.out.println("成绩："+dorm.getDormcheckMessage());
         });
+
+        ApartExample example =new ApartExample();
+        ApartExample.Criteria criteria = example.createCriteria();
+        criteria.andApartApaEqualTo("二组团");
+       // apartMapper.selectByExample(example);
+
+        System.out.println( apartMapper.selectByExampleWithApartsAndStudents(null));
+
+
     }
 }
