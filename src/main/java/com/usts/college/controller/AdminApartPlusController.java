@@ -4,6 +4,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.usts.college.bean.Apart;
 import com.usts.college.bean.Msg;
+import com.usts.college.bean.Student;
 import com.usts.college.service.AdminApartPlusService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -23,6 +24,7 @@ import java.util.Map;
 public class AdminApartPlusController {
     @Autowired
     AdminApartPlusService adminapartplusservice;
+
     @RequestMapping(value="/apartlife",method=RequestMethod.POST)
     @ResponseBody
     public Msg saveManagerApart(@Valid Apart apart, BindingResult result){
@@ -62,8 +64,10 @@ public class AdminApartPlusController {
             }
             adminapartplusservice.deleteBatch(del_ids);
         }else{
-            Integer id = Integer.parseInt(ids);
-            adminapartplusservice.deleteDormmanager(id);
+
+                Integer id = Integer.parseInt(ids);
+                adminapartplusservice.deleteDormmanager(id);
+
         }
         return Msg.success();
 

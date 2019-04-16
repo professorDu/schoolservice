@@ -1,7 +1,9 @@
 package com.usts.college.bean;
 
-import javax.validation.constraints.Pattern;
+import lombok.Data;
 
+import javax.validation.constraints.Pattern;
+@Data
 public class Dormmanager {
     private Integer dormId;
 
@@ -39,67 +41,4 @@ public class Dormmanager {
 		this.apartPid = apartPid;
 	}
 
-	public Apart getApart() {
-		return apart;
-	}
-
-	public void setApart(Apart apart) {
-		this.apart = apart;
-	}
-
-	public Integer getDormId() {
-        return dormId;
-    }
-
-    public void setDormId(Integer dormId) {
-        this.dormId = dormId;
-    }
-
-    public String getDormName() {
-        return dormName;
-    }
-
-    public void setDormName(String dormName) {
-        this.dormName = dormName == null ? null : dormName.trim();
-    }
-
-    public String getDormUsername() {
-        return dormUsername;
-    }
-
-    public void setDormUsername(String dormUsername) {
-        this.dormUsername = dormUsername == null ? null : dormUsername.trim();
-    }
-
-    public String getDormPassword() {
-        return dormPassword;
-    }
-
-    public void setDormPassword(String dormPassword) {
-        this.dormPassword = dormPassword == null ? null : dormPassword.trim();
-    }
-
-    public String getDormGender() {
-        return dormGender;
-    }
-
-    public void setDormGender(String dormGender) {
-        this.dormGender = dormGender == null ? null : dormGender.trim();
-    }
-
-    public String getDormTel() {
-        return dormTel;
-    }
-
-    public void setDormTel(String dormTel) {
-        this.dormTel = dormTel == null ? null : dormTel.trim();
-    }
-
-    public Integer getApartPid() {
-        return apartPid;
-    }
-
-    public void setApartPid(Integer apartPid) {
-        this.apartPid = apartPid;
-    }
 }

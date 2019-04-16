@@ -1,7 +1,13 @@
 package com.usts.college.test;
 
 import com.usts.college.bean.Apart;
+import com.usts.college.bean.Dormcheck;
+import com.usts.college.bean.Dormmanager;
+import com.usts.college.bean.Student;
 import com.usts.college.dao.ApartMapper;
+import com.usts.college.dao.DormcheckMapper;
+import com.usts.college.dao.DormmanagerMapper;
+import com.usts.college.dao.StudentMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,9 +21,30 @@ import java.util.List;
 public class MapperTest {
     @Autowired
     ApartMapper apartMapper;
+    @Autowired
+    StudentMapper studentmapper;
+    @Autowired
+    DormmanagerMapper dormmanagermapper;
+    @Autowired
+    DormcheckMapper dormcheckmapper;
 
     @Test
-    public void test() {
-//        List<Apart> list = apartMapper.selectByExample(null);
+    public void testCRUD() {
+//        List<Student> list = studentmapper.selectByExampleWithRoomAndApart(null);
+//        list.forEach(student->{
+//            System.out.println("姓名："+student.getStuName());
+//            System.out.println("楼："+student.getApartroom().getApart().getApartApa());
+//            System.out.println("编号："+student.getApartroom().getApartroomAbc());
+//        });
+//        Student listq = studentmapper.selectByPrimaryKeyWithRoomAndApart(1);
+//        System.out.println(listq.getApartroom().getApartroomAbc());
+//        Dormmanager dorm = dormmanagermapper.selectByPrimaryKeyWithApart(1);
+//        System.out.println(dorm.getDormName());
+        List<Dormcheck> dormchecks = dormcheckmapper.selectByExampleWithCheckRAndA(null);
+        dormchecks.forEach(dorm->{
+            System.out.println("组团："+dorm.getApartroom().getApart().getApartApa());
+            System.out.println("编号："+dorm.getApartroom().getApartroomAbc());
+            System.out.println("成绩："+dorm.getDormcheckMessage());
+        });
     }
 }

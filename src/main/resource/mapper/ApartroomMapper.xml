@@ -7,6 +7,9 @@
     <result column="apartroom_abc" jdbcType="VARCHAR" property="apartroomAbc" />
     <result column="apartroom_dorm" jdbcType="VARCHAR" property="apartroomDorm" />
   </resultMap>
+  <resultMap id="DemoResultMap" type="com.usts.college.bean.Apartroom" extends="BaseResultMap">
+    <association property="apart" javaType="com.usts.college.bean.Apart" resultMap="com.usts.college.dao.ApartMapper.BaseResultMap"></association>
+  </resultMap>
   <sql id="Example_Where_Clause">
     <where>
       <foreach collection="oredCriteria" item="criteria" separator="or">

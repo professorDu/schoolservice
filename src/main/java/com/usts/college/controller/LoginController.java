@@ -54,4 +54,34 @@ public class LoginController {
     }
 
 
+//    @RequestMapping("/loginAdmin")
+//    @ResponseBody
+//    public String login(@RequestParam("username") String username,
+//                     @RequestParam("password") String password,
+//                     @RequestParam("usertype") String usertype, HttpSession session) {
+//        if (usertype.equals("0")) {
+//            if (this.LoginService.loginAdmin(username, password)) {
+//                session.setAttribute("username", username);
+//                System.out.println("heooo");
+//                return "mainAdmin";
+//            }
+//        } else if (usertype.equals("1")) {
+//            if (this.logindormmanagerservice.loginManager(username, password)) {
+//                session.setAttribute("username", username);
+//                return "mainManager";
+//            }
+//        } else if (usertype.equals("2")) {
+//            if (this.loginlifemanagerservice.loginLife(username, password)) {
+//                session.setAttribute("username", username);
+//                return "mainLifemanager";
+//            }
+//        }
+//        return "fail";
+//    }
+//    @RequestMapping("/fail")
+//    @ResponseBody
+//    public Msg adminfail() {
+//        return Msg.fail();
+//    }
+
 }

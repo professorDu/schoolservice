@@ -5,6 +5,7 @@
     <id column="lost_id" jdbcType="INTEGER" property="lostId" />
     <result column="lost_title" jdbcType="VARCHAR" property="lostTitle" />
     <result column="lost_message" jdbcType="VARCHAR" property="lostMessage" />
+    <result column="lost_place" jdbcType="VARCHAR" property="lostPlace" />
     <result column="lost_date" jdbcType="DATE" property="lostDate" />
   </resultMap>
   <sql id="Example_Where_Clause">
@@ -66,7 +67,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    lost_id, lost_title, lost_message, lost_date
+    lost_id, lost_title, lost_message, lost_place, lost_date
   </sql>
   <select id="selectByExample" parameterType="com.usts.college.bean.LostExample" resultMap="BaseResultMap">
     select
@@ -100,9 +101,9 @@
   </delete>
   <insert id="insert" parameterType="com.usts.college.bean.Lost">
     insert into lost (lost_id, lost_title, lost_message, 
-      lost_date)
+      lost_place, lost_date)
     values (#{lostId,jdbcType=INTEGER}, #{lostTitle,jdbcType=VARCHAR}, #{lostMessage,jdbcType=VARCHAR}, 
-      #{lostDate,jdbcType=DATE})
+      #{lostPlace,jdbcType=VARCHAR}, #{lostDate,jdbcType=DATE})
   </insert>
   <insert id="insertSelective" parameterType="com.usts.college.bean.Lost">
     insert into lost
@@ -115,6 +116,9 @@
       </if>
       <if test="lostMessage != null">
         lost_message,
+      </if>
+      <if test="lostPlace != null">
+        lost_place,
       </if>
       <if test="lostDate != null">
         lost_date,
@@ -129,6 +133,9 @@
       </if>
       <if test="lostMessage != null">
         #{lostMessage,jdbcType=VARCHAR},
+      </if>
+      <if test="lostPlace != null">
+        #{lostPlace,jdbcType=VARCHAR},
       </if>
       <if test="lostDate != null">
         #{lostDate,jdbcType=DATE},
@@ -153,6 +160,9 @@
       <if test="record.lostMessage != null">
         lost_message = #{record.lostMessage,jdbcType=VARCHAR},
       </if>
+      <if test="record.lostPlace != null">
+        lost_place = #{record.lostPlace,jdbcType=VARCHAR},
+      </if>
       <if test="record.lostDate != null">
         lost_date = #{record.lostDate,jdbcType=DATE},
       </if>
@@ -166,6 +176,7 @@
     set lost_id = #{record.lostId,jdbcType=INTEGER},
       lost_title = #{record.lostTitle,jdbcType=VARCHAR},
       lost_message = #{record.lostMessage,jdbcType=VARCHAR},
+      lost_place = #{record.lostPlace,jdbcType=VARCHAR},
       lost_date = #{record.lostDate,jdbcType=DATE}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
@@ -180,6 +191,9 @@
       <if test="lostMessage != null">
         lost_message = #{lostMessage,jdbcType=VARCHAR},
       </if>
+      <if test="lostPlace != null">
+        lost_place = #{lostPlace,jdbcType=VARCHAR},
+      </if>
       <if test="lostDate != null">
         lost_date = #{lostDate,jdbcType=DATE},
       </if>
@@ -190,6 +204,7 @@
     update lost
     set lost_title = #{lostTitle,jdbcType=VARCHAR},
       lost_message = #{lostMessage,jdbcType=VARCHAR},
+      lost_place = #{lostPlace,jdbcType=VARCHAR},
       lost_date = #{lostDate,jdbcType=DATE}
     where lost_id = #{lostId,jdbcType=INTEGER}
   </update>

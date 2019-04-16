@@ -37,14 +37,14 @@
 		</javaClientGenerator>
 
 		<!-- table指定每个表的生成策略 -->
-		<table tableName="apart" domainObjectName="Apart"></table>
-		<table tableName="apartroom" domainObjectName="Apartroom"></table>
-		<table tableName="dormcheck" domainObjectName="Dormcheck"></table>
-		<table tableName="dormmanager" domainObjectName="Dormmanager"></table>
-		<table tableName="lifemanager" domainObjectName="Lifemanager"></table>
-		<table tableName="live" domainObjectName="Live"></table>
+		<!--<table tableName="apart" domainObjectName="Apart"></table>-->
+		<!--<table tableName="apartroom" domainObjectName="Apartroom"></table>-->
+		<!--<table tableName="dormcheck" domainObjectName="Dormcheck"></table>-->
+		<!--<table tableName="dormmanager" domainObjectName="Dormmanager"></table>-->
+		<!--<table tableName="lifemanager" domainObjectName="Lifemanager"></table>-->
+		<!--<table tableName="live" domainObjectName="Live"></table>-->
 		<table tableName="lost" domainObjectName="Lost"></table>
-		<table tableName="student" domainObjectName="Student"></table>
-		<table tableName="supermanager" domainObjectName="Supermanager"></table>
+		<!--<table tableName="student" domainObjectName="Student"></table>-->
+		<!--<table tableName="supermanager" domainObjectName="Supermanager"></table>-->
 	</context>
 </generatorConfiguration>

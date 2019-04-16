@@ -428,6 +428,7 @@
                 url: "${APP_PATH}/ApartPlus/dormmanager/" + empId,
                 type: "DELETE",
                 success: function (result) {
+
                     alert("删除成功！");
                     //回到本页
                     to_page(currentPage);

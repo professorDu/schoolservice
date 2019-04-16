@@ -10,6 +10,12 @@
     <result column="stu_college" jdbcType="VARCHAR" property="stuCollege" />
     <result column="apartroom_pid" jdbcType="INTEGER" property="apartroomPid" />
   </resultMap>
+  <!--List<Student> selectByExampleWithRoomAndApart(StudentExample example);-->
+  <!--Student selectByPrimaryKeyWithRoomAndApart(Integer stuId);-->
+  <resultMap id="WithRoomAndApartResultMap" type="com.usts.college.bean.Student" extends="BaseResultMap">
+    <association property="apartroom" javaType="com.usts.college.bean.Apartroom" resultMap="com.usts.college.dao.ApartroomMapper.DemoResultMap">
+    </association>
+  </resultMap>
   <sql id="Example_Where_Clause">
     <where>
       <foreach collection="oredCriteria" item="criteria" separator="or">
@@ -71,6 +77,33 @@
   <sql id="Base_Column_List">
     stu_id, stu_num, stu_pass, stu_name, stu_gender, stu_college, apartroom_pid
   </sql>
+  <sql id="WithRoomAndApart_Column_List">
+    s.stu_num,s.stu_pass,s.stu_name,s.stu_gender,s.stu_college,ap.apart_apa,ar.apartroom_abc,ar.apartroom_dorm
+  </sql>
+  <select id="selectByExampleWithRoomAndApart"  resultMap="WithRoomAndApartResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="WithRoomAndApart_Column_List" />
+    from student s
+    LEFT JOIN apartroom ar on s.apartroom_pid=ar.apartroom_id
+    LEFT JOIN apart ap on ap.apart_id=ar.apart_pid
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKeyWithRoomAndApart" resultMap="WithRoomAndApartResultMap">
+    select
+    <include refid="WithRoomAndApart_Column_List" />
+    from student s
+    LEFT JOIN apartroom ar on s.apartroom_pid=ar.apartroom_id
+    LEFT JOIN apart ap on ap.apart_id=ar.apart_pid
+    where stu_id = #{stuId,jdbcType=INTEGER}
+  </select>
   <select id="selectByExample" parameterType="com.usts.college.bean.StudentExample" resultMap="BaseResultMap">
     select
     <if test="distinct">

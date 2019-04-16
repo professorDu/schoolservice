@@ -19,6 +19,10 @@ public interface StudentMapper {
     List<Student> selectByExample(StudentExample example);
 
     Student selectByPrimaryKey(Integer stuId);
+    //学生查询，连接宿舍和楼栋
+    List<Student> selectByExampleWithRoomAndApart(StudentExample example);
+
+    Student selectByPrimaryKeyWithRoomAndApart(Integer stuId);
 
     int updateByExampleSelective(@Param("record") Student record, @Param("example") StudentExample example);
 

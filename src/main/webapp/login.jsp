@@ -116,7 +116,7 @@
                 <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
                            
                             <div class="panel-body" id="loginAdmin">
-                                <form role="form" >
+
                                 <!-- <form role="form"> -->
                                     <hr />
                                     <h5>输入用户名密码登陆</h5>
@@ -146,7 +146,7 @@
 
                                     <button class="btn btn-primary btn-lg btn-block" id="login_btn">登陆</button>
                                     <hr>
-                                </form>
+
                             </div>
                            
                         </div>
@@ -167,6 +167,7 @@
 		<%--<% session.invalidate(); %>--%>
     <script type="text/javascript">
         //loginAdmin?username="+username+"&password="+password+"&usertype="+usertype,
+
         $("#login_btn").click(function() {
             //1、校验用户名
             var username = $("#user").val();
@@ -174,7 +175,7 @@
             var radio = document.getElementsByName("usertype");
             for (i=0; i<radio.length; i++) {
                 if (radio[i].checked) {
-                 var usertype=i;
+                    var usertype=i;
                 }
             }
 
@@ -182,6 +183,7 @@
                 url : "${APP_PATH}/loginAdmin?username="+username+"&password="+password+"&usertype="+usertype,
                 type : "GET",
                 success : function(result) {
+
                     if(result.code==100&&usertype==0){
                         window.location.href = "${APP_PATH}/mainAdmin";
                     }else if(result.code==100&&usertype==1){
@@ -189,7 +191,7 @@
                     } else if(result.code==100&&usertype==2){
                         window.location.href = "${APP_PATH}/mainLifemanager";
                     }
-                    else if(result.code==200){
+                    else {
                         alert("用户名或密码错误");
                     }
                 }

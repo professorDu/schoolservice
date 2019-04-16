@@ -12,6 +12,7 @@ import java.util.List;
 public class AdminApartPlusService {
     @Autowired
     private ApartMapper apartmapper;
+
     public void saveDormmanager(Apart apart) {
         // dormmanagermapper.insertSelective(dormmanager);
         apartmapper.insertSelective(apart);

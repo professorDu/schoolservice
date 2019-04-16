@@ -7,9 +7,124 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75a112df-0cae-407b-8f27-5142e271e1aa" name="Default" comment="毕业">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/read.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mbg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mbg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Apart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Apart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Apartroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Apartroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Dormcheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Dormcheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Dormmanager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Dormmanager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Lifemanager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Lifemanager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Live.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Live.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Lost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Lost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Supermanager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Supermanager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usts/college/controller/AdminApartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/usts/college/controller/AdminApartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usts/college/controller/AdminApartPlusController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/usts/college/controller/AdminApartPlusController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usts/college/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/usts/college/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usts/college/dao/DormcheckMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/usts/college/dao/DormcheckMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usts/college/dao/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/usts/college/dao/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usts/college/service/AdminApartPlusService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/usts/college/service/AdminApartPlusService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/usts/college/test/MapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/usts/college/test/MapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/mapper/ApartroomMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mapper/ApartroomMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/mapper/DormcheckMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mapper/DormcheckMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/mapper/LostMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mapper/LostMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mapper/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/adminApart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/adminApart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/read.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/Apart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/Apart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/ApartExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/ApartExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/ApartExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/ApartExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/ApartExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/ApartExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/ApartExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/ApartExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/Apartroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/Apartroom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/ApartroomExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/ApartroomExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/ApartroomExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/ApartroomExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/ApartroomExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/ApartroomExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/ApartroomExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/ApartroomExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/Dormcheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/DormcheckExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/DormcheckExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/DormcheckExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/DormcheckExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/DormcheckExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/DormcheckExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/DormcheckExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/DormcheckExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/Dormmanager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/Dormmanager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/DormmanagerExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/DormmanagerExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/DormmanagerExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/DormmanagerExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/DormmanagerExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/DormmanagerExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/DormmanagerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/DormmanagerExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/Lifemanager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/Lifemanager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LifemanagerExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LifemanagerExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LifemanagerExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LifemanagerExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LifemanagerExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LifemanagerExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LifemanagerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LifemanagerExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/Live.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/Live.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LiveExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LiveExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LiveExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LiveExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LiveExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LiveExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LiveExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LiveExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/Lost.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/Lost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LostExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LostExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LostExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LostExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LostExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LostExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LostExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/LostExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/Msg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/Msg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/StudentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/StudentExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/StudentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/StudentExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/StudentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/StudentExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/StudentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/StudentExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/Supermanager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/Supermanager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/SupermanagerExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/SupermanagerExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/SupermanagerExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/SupermanagerExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/SupermanagerExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/SupermanagerExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/bean/SupermanagerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/bean/SupermanagerExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/controller/AdminApartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/controller/AdminApartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/controller/AdminApartPlusController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/controller/AdminApartPlusController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/controller/AdminLifeManagerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/controller/AdminLifeManagerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/controller/AdminManagerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/controller/AdminManagerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/controller/Adminnewpage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/controller/Adminnewpage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/controller/ToLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/controller/ToLoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/dao/ApartMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/dao/ApartMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/dao/ApartroomMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/dao/ApartroomMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/dao/DormcheckMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/dao/DormcheckMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/dao/DormmanagerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/dao/DormmanagerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/dao/LifemanagerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/dao/LifemanagerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/dao/LiveMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/dao/LiveMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/dao/LostMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/dao/LostMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/dao/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/dao/StudentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/dao/SupermanagerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/dao/SupermanagerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/service/AdminApartPlusService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/service/AdminApartPlusService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/service/AdminApartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/service/AdminApartService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/service/AdminLifeManagerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/service/AdminLifeManagerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/service/AdminManagerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/service/AdminManagerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/service/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/service/LoginService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/service/LogindormmanagerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/service/LogindormmanagerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/service/LoginlifemanagerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/service/LoginlifemanagerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/test/MBGTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/test/MBGTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/usts/college/test/MapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/usts/college/test/MapperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ApartroomMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/ApartroomMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/LostMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/LostMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/bean/Apart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/bean/Apart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/bean/Apartroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/bean/Apartroom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/bean/Dormmanager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/bean/Dormmanager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/bean/Lifemanager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/bean/Lifemanager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/bean/Live.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/bean/Live.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/bean/Lost.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/bean/Lost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/bean/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/bean/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/bean/Supermanager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/bean/Supermanager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/controller/AdminApartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/controller/AdminApartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/controller/AdminApartPlusController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/controller/AdminApartPlusController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/dao/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/dao/StudentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/service/AdminApartPlusService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/service/AdminApartPlusService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/test/MapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/com/usts/college/test/MapperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/mapper/ApartroomMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/mapper/ApartroomMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/mapper/LostMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/mapper/LostMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/schoolservice/WEB-INF/classes/mapper/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schoolservice/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/schoolservice/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/schoolservice/views/adminApart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/schoolservice/views/adminApart.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,52 +165,112 @@
     </expand>
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="schoolservice" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="adminLife.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/adminLife.jsp">
+      <file leaf-file-name="DormcheckMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/DormcheckMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="602" column="19" selection-start-line="602" selection-start-column="19" selection-end-line="602" selection-end-column="34" />
+            <state relative-caret-position="361">
+              <caret line="98" column="46" selection-start-line="98" selection-start-column="46" selection-end-line="98" selection-end-column="46" />
+              <folding>
+                <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
+                <element signature="n#resultMap#1;n#mapper#0;n#!!top" />
+                <element signature="n#sql#0;n#mapper#0;n#!!top" />
+                <element signature="n#sql#1;n#mapper#0;n#!!top" />
+                <element signature="n#select#0;n#mapper#0;n#!!top" />
+                <element signature="n#select#0;n#mapper#0;n#!!top" />
+                <element signature="n#select#1;n#mapper#0;n#!!top" />
+                <element signature="n#delete#0;n#mapper#0;n#!!top" />
+                <element signature="n#delete#1;n#mapper#0;n#!!top" />
+                <element signature="n#insert#0;n#mapper#0;n#!!top" />
+                <element signature="n#insert#1;n#mapper#0;n#!!top" />
+                <element signature="n#select#2;n#mapper#0;n#!!top" />
+                <element signature="n#update#0;n#mapper#0;n#!!top" />
+                <element signature="n#update#1;n#mapper#0;n#!!top" />
+                <element signature="n#update#2;n#mapper#0;n#!!top" />
+                <element signature="n#update#3;n#mapper#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainAdmin.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/mainAdmin.jsp">
+      <file leaf-file-name="Apart.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/bean/Apart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="166" column="33" lean-forward="true" selection-start-line="166" selection-start-column="13" selection-end-line="166" selection-end-column="33" />
+            <state relative-caret-position="171">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminManager.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/adminManager.jsp">
+      <file leaf-file-name="MapperTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/test/MapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-67">
-              <caret line="618" selection-start-line="618" selection-end-line="618" />
+            <state relative-caret-position="145">
+              <caret line="41" column="49" lean-forward="true" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="read.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/read.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="Dormcheck.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/bean/Dormcheck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminApart.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/adminApart.jsp">
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/bean/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="128" column="3" selection-start-line="128" selection-start-column="3" selection-end-line="128" selection-end-column="17" />
+            <state relative-caret-position="266">
+              <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/StudentMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="17" selection-end-column="14" />
+              <folding>
+                <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
+                <element signature="n#sql#0;n#mapper#0;n#!!top" />
+                <element signature="n#sql#1;n#mapper#0;n#!!top" />
+                <element signature="n#sql#2;n#mapper#0;n#!!top" />
+                <element signature="n#sql#3;n#mapper#0;n#!!top" />
+                <element signature="n#select#0;n#mapper#0;n#!!top" />
+                <element signature="n#if#1;n#select#0;n#mapper#0;n#!!top" />
+                <element signature="n#if#2;n#select#0;n#mapper#0;n#!!top" />
+                <element signature="n#select#1;n#mapper#0;n#!!top" />
+                <element signature="n#select#2;n#mapper#0;n#!!top" />
+                <element signature="n#delete#0;n#mapper#0;n#!!top" />
+                <element signature="n#delete#1;n#mapper#0;n#!!top" />
+                <element signature="n#insert#0;n#mapper#0;n#!!top" />
+                <element signature="n#insert#1;n#mapper#0;n#!!top" />
+                <element signature="n#select#4;n#mapper#0;n#!!top" />
+                <element signature="n#update#0;n#mapper#0;n#!!top" />
+                <element signature="n#update#1;n#mapper#0;n#!!top" />
+                <element signature="n#update#2;n#mapper#0;n#!!top" />
+                <element signature="n#update#3;n#mapper#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DormcheckMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/dao/DormcheckMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -138,15 +313,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resource/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/mbg.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/success.jsp" />
         <option value="$PROJECT_DIR$/src/main/resource/mapper/DormmanagerMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/usts/college/dao/DormmanagerMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/usts/college/controller/AdminManagerController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/usts/college/test/MapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/resource/mapper/ApartMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/a.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/adminPass.jsp" />
@@ -155,19 +327,36 @@
         <option value="$PROJECT_DIR$/src/main/webapp/views/mainManager.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/mainLifemanager.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/usts/college/service/AdminLifeManagerService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Lifemanager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/usts/college/controller/AdminLifeManagerController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/mainAdmin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/adminLife.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/adminManager.jsp" />
+        <option value="$PROJECT_DIR$/src/read.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/usts/college/service/LoginService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/usts/college/controller/ToLoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/usts/college/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/usts/college/service/AdminApartPlusService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Apart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/usts/college/controller/AdminApartPlusController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/mainAdmin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/adminLife.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/adminApart.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/adminManager.jsp" />
-        <option value="$PROJECT_DIR$/src/read.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Dormmanager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Lifemanager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Live.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Supermanager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Apartroom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/usts/college/controller/AdminApartController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/usts/college/controller/AdminApartPlusController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/usts/college/service/AdminApartPlusService.java" />
+        <option value="$PROJECT_DIR$/mbg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Lost.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Apart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/usts/college/dao/StudentMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/mapper/ApartroomMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/mapper/StudentMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/usts/college/bean/Dormcheck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/usts/college/dao/DormcheckMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/mapper/DormcheckMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/usts/college/test/MapperTest.java" />
       </list>
     </option>
   </component>
@@ -199,8 +388,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="189" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="669" />
     <option name="y" value="18" />
     <option name="width" value="993" />
     <option name="height" value="1044" />
@@ -214,6 +403,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,14 +428,51 @@
               <item name="schoolservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="schoolservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="schoolservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="college" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="schoolservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="schoolservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="college" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="schoolservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="schoolservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="schoolservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="schoolservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="schoolservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="schoolservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,19 +482,22 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MyIdea\copy\schoolservice\src\main" />
+      <recent name="E:\MyIdea\copy\schoolservice\src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\MyIdea\copy\schoolservice\src\main\resource\mapper" />
       <recent name="E:\MyIdea\copy\schoolservice\src\main\java\com\usts\college\dao" />
       <recent name="E:\MyIdea\copy\schoolservice\src\main\java\com\usts\college\bean" />
       <recent name="E:\MyIdea\copy\schoolservice\src\main\webapp" />
       <recent name="E:\MyIdea\copy\schoolservice\src\main\java\com\usts\college\controller" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\MyIdea\copy\schoolservice\src\main" />
-      <recent name="E:\MyIdea\copy\schoolservice\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -281,7 +512,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.schoolservice">
+  <component name="RunManager" selected="JUnit.MapperTest.testCRUD">
     <configuration name="MBGTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.usts.college.test.MBGTest" />
       <module name="schoolservice" />
@@ -309,6 +540,29 @@
       <option name="PACKAGE_NAME" value="com.usts.college.test" />
       <option name="MAIN_CLASS_NAME" value="com.usts.college.test.MapperTest" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MapperTest.testCRUD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="schoolservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.usts.college.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.usts.college.test" />
+      <option name="MAIN_CLASS_NAME" value="com.usts.college.test.MapperTest" />
+      <option name="METHOD_NAME" value="testCRUD" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -434,11 +688,13 @@
       <item itemvalue="Tomcat Server.schoolservice" />
       <item itemvalue="Application.MBGTest" />
       <item itemvalue="JUnit.MapperTest.test" />
+      <item itemvalue="JUnit.MapperTest.testCRUD" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MapperTest.test" />
+        <item itemvalue="JUnit.MapperTest.testCRUD" />
         <item itemvalue="Application.MBGTest" />
+        <item itemvalue="JUnit.MapperTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -460,26 +716,47 @@
       <workItem from="1554970356494" duration="2619000" />
       <workItem from="1554985874517" duration="9261000" />
       <workItem from="1555254568340" duration="243000" />
-      <workItem from="1555291093412" duration="7555000" />
+      <workItem from="1555291093412" duration="25950000" />
+      <workItem from="1555379250603" duration="1608000" />
+      <workItem from="1555388381201" duration="4175000" />
+      <workItem from="1555393979258" duration="6583000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MapperTest_test - 2019.04.10 at 18h 23m 18s.xml">
-      <configuration name="MapperTest.test" configurationId="JUnit" />
+    <history-entry file="MapperTest_testCRUD - 2019.04.16 at 14h 49m 12s.xml">
+      <configuration name="MapperTest.testCRUD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapperTest_test - 2019.04.10 at 18h 24m 41s.xml">
-      <configuration name="MapperTest.test" configurationId="JUnit" />
+    <history-entry file="MapperTest_testCRUD - 2019.04.16 at 14h 49m 59s.xml">
+      <configuration name="MapperTest.testCRUD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapperTest_test - 2019.04.10 at 18h 28m 45s.xml">
-      <configuration name="MapperTest.test" configurationId="JUnit" />
+    <history-entry file="MapperTest_testCRUD - 2019.04.16 at 14h 50m 22s.xml">
+      <configuration name="MapperTest.testCRUD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapperTest_test - 2019.04.10 at 18h 29m 04s.xml">
-      <configuration name="MapperTest.test" configurationId="JUnit" />
+    <history-entry file="MapperTest_testCRUD - 2019.04.16 at 14h 53m 23s.xml">
+      <configuration name="MapperTest.testCRUD" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapperTest_testCRUD - 2019.04.16 at 14h 53m 53s.xml">
+      <configuration name="MapperTest.testCRUD" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapperTest_testCRUD - 2019.04.16 at 14h 55m 56s.xml">
+      <configuration name="MapperTest.testCRUD" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapperTest_testCRUD - 2019.04.16 at 15h 10m 44s.xml">
+      <configuration name="MapperTest.testCRUD" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapperTest_testCRUD - 2019.04.16 at 15h 11m 24s.xml">
+      <configuration name="MapperTest.testCRUD" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapperTest_testCRUD - 2019.04.16 at 15h 27m 54s.xml">
+      <configuration name="MapperTest.testCRUD" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapperTest_testCRUD - 2019.04.16 at 15h 30m 13s.xml">
+      <configuration name="MapperTest.testCRUD" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49801000" />
+    <option name="totallyTimeSpent" value="80562000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -492,12 +769,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="10" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" order="1" weight="0.32920355" />
+      <window_info anchor="bottom" id="Application Servers" order="1" weight="0.3280142" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
@@ -507,21 +783,21 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="15" weight="0.32920355" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32920355" />
+      <window_info anchor="bottom" id="TODO" order="15" weight="0.3280142" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.3280142" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32920355" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="11" weight="0.35752213" />
-      <window_info anchor="bottom" id="Spring" order="10" weight="0.32920355" />
-      <window_info anchor="bottom" id="Terminal" order="6" visible="true" weight="0.32978722" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28698465" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.32978722" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.2783688" />
+      <window_info anchor="bottom" id="Spring" order="10" weight="0.3280142" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.21631205" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.29668552" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Favorites" order="5" sideWeight="0.5026455" side_tool="true" weight="0.28698465" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.32920355" />
@@ -533,6 +809,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -552,328 +854,510 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/adminManager.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10849">
-          <caret line="571" column="4" selection-start-line="571" selection-start-column="4" selection-end-line="573" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="180" column="10" selection-start-line="180" selection-start-column="10" selection-end-line="180" selection-end-column="10" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mbg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="28" column="82" selection-start-line="28" selection-start-column="82" selection-end-line="28" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/test/MBGTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/login.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/DormmanagerMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5301">
-          <caret line="279" column="45" lean-forward="true" selection-start-line="279" selection-start-column="45" selection-end-line="279" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/dao/DormmanagerMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/bean/Dormmanager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/test/MapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://1c480c34-ec05-4466-972e-ab27640e326b/schema/school/table/apart">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1c480c34-ec05-4466-972e-ab27640e326b/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/ApartMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://1c480c34-ec05-4466-972e-ab27640e326b/schema/school/table/dormmanager">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://1c480c34-ec05-4466-972e-ab27640e326b/schema/school/table/lifemanager">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/adminBlank.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/service/AdminManagerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/bean/Lifemanager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/a.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/mainLifemanager.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1482">
-          <caret line="78" column="114" selection-start-line="78" selection-start-column="114" selection-end-line="78" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/bean/Msg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="-19">
+          <caret line="625" column="29" selection-start-line="625" selection-start-column="29" selection-end-line="625" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/controller/ToLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        <state relative-caret-position="150">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/controller/Adminnewpage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="59">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+        <state relative-caret-position="228">
+          <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/error.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/success.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/dao/ApartroomMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/mainManager.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/adminStudent.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-304" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/adminPass.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="196" column="11" lean-forward="true" selection-start-line="196" selection-start-column="11" selection-end-line="196" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/service/AdminApartService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/service/AdminLifeManagerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="84" column="5" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="84" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/controller/AdminApartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/controller/AdminManagerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="145" column="16" lean-forward="true" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="185" column="60" selection-start-line="185" selection-start-column="60" selection-end-line="185" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/bean/Apart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/service/AdminApartPlusService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-849">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/controller/AdminLifeManagerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-361">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/controller/AdminApartPlusController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="64" column="47" lean-forward="true" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/dao/LostMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/LostMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/bean/LostExample.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/jquery-3.1.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="9843" column="12" lean-forward="true" selection-start-line="9843" selection-start-column="12" selection-end-line="9843" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="15129" column="20" lean-forward="true" selection-start-line="15129" selection-start-column="20" selection-end-line="15129" selection-end-column="20" />
+        <state relative-caret-position="-97">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/mainAdmin.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="-24">
           <caret line="166" column="33" lean-forward="true" selection-start-line="166" selection-start-column="13" selection-end-line="166" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/adminLife.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="602" column="19" selection-start-line="602" selection-start-column="19" selection-end-line="602" selection-end-column="34" />
+        <state relative-caret-position="-231">
+          <caret line="204" column="3" selection-start-line="204" selection-start-column="3" selection-end-line="208" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/adminApart.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="128" column="3" selection-start-line="128" selection-start-column="3" selection-end-line="128" selection-end-column="17" />
+        <state relative-caret-position="8170">
+          <caret line="430" selection-start-line="430" selection-end-line="430" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/adminManager.jsp">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.20/lombok-1.16.20.jar!/lombok/Data.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <caret line="618" selection-start-line="618" selection-end-line="618" />
+        <state relative-caret-position="266">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/read.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/bean/ApartExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/bean/DormcheckExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/bean/Lifemanager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/bean/Live.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/bean/Msg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-401">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/bean/Supermanager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/bean/SupermanagerExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/dao/LifemanagerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/SupermanagerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/service/AdminManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/service/LoginlifemanagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/service/LogindormmanagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/service/AdminLifeManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1444">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/service/AdminApartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/controller/AdminApartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/service/AdminApartPlusService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-173">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/controller/AdminApartPlusController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/dao/ApartMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/LifemanagerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/LiveMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/LostMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1881">
+          <caret line="99" column="9" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/bean/Lost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/controller/AdminManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="104" column="7" lean-forward="true" selection-start-line="104" selection-start-column="7" selection-end-line="104" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mbg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/bean/Dormmanager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/ApartroomMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
+          <folding>
+            <element signature="n#sql#0;n#mapper#0;n#!!top" />
+            <element signature="n#sql#1;n#mapper#0;n#!!top" />
+            <element signature="n#sql#2;n#mapper#0;n#!!top" />
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/ApartMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/test/MBGTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#450#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/bean/Apartroom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="150" column="23" lean-forward="true" selection-start-line="150" selection-start-column="23" selection-end-line="150" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/DormmanagerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="92" column="41" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="41" />
+          <folding>
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
+            <element signature="n#resultMap#1;n#mapper#0;n#!!top" />
+            <element signature="n#sql#0;n#mapper#0;n#!!top" />
+            <element signature="n#sql#1;n#mapper#0;n#!!top" />
+            <element signature="n#sql#2;n#mapper#0;n#!!top" />
+            <element signature="n#sql#3;n#mapper#0;n#!!top" />
+            <element signature="e#4222#4364#0" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" />
+            <element signature="n#select#3;n#mapper#0;n#!!top" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" />
+            <element signature="n#delete#1;n#mapper#0;n#!!top" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" />
+            <element signature="n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#4;n#mapper#0;n#!!top" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#update#1;n#mapper#0;n#!!top" />
+            <element signature="n#update#2;n#mapper#0;n#!!top" />
+            <element signature="n#update#3;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/dao/DormmanagerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/dao/StudentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/dao/DormcheckMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/StudentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
+            <element signature="n#sql#0;n#mapper#0;n#!!top" />
+            <element signature="n#sql#1;n#mapper#0;n#!!top" />
+            <element signature="n#sql#2;n#mapper#0;n#!!top" />
+            <element signature="n#sql#3;n#mapper#0;n#!!top" />
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#if#1;n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#if#2;n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" />
+            <element signature="n#delete#1;n#mapper#0;n#!!top" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" />
+            <element signature="n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#4;n#mapper#0;n#!!top" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#update#1;n#mapper#0;n#!!top" />
+            <element signature="n#update#2;n#mapper#0;n#!!top" />
+            <element signature="n#update#3;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/bean/Dormcheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/bean/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/DormcheckMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="98" column="46" selection-start-line="98" selection-start-column="46" selection-end-line="98" selection-end-column="46" />
+          <folding>
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
+            <element signature="n#resultMap#1;n#mapper#0;n#!!top" />
+            <element signature="n#sql#0;n#mapper#0;n#!!top" />
+            <element signature="n#sql#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" />
+            <element signature="n#delete#1;n#mapper#0;n#!!top" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" />
+            <element signature="n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#update#1;n#mapper#0;n#!!top" />
+            <element signature="n#update#2;n#mapper#0;n#!!top" />
+            <element signature="n#update#3;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/test/MapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="41" column="49" lean-forward="true" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/usts/college/bean/Apart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>schoolservice:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>schoolservice</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: c3p0:c3p0:0.9.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

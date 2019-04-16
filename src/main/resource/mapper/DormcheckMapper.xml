@@ -7,6 +7,13 @@
     <result column="dormcheck_date" jdbcType="DATE" property="dormcheckDate" />
     <result column="apartroom_pid" jdbcType="INTEGER" property="apartroomPid" />
   </resultMap>
+  <resultMap id="WithCheckRAndAResultMap" type="com.usts.college.bean.Dormcheck" extends="BaseResultMap">
+    <association property="apartroom" javaType="com.usts.college.bean.Apartroom" resultMap="com.usts.college.dao.ApartroomMapper.DemoResultMap">
+    </association>
+  </resultMap>
+
+  <!--List<Dormcheck> selectByExampleWithCheckRAndA(DormcheckExample example);-->
+  <!--Dormcheck selectByPrimaryKeyCheckWithCheckRAndA(Integer dormcheckId);-->
   <sql id="Example_Where_Clause">
     <where>
       <foreach collection="oredCriteria" item="criteria" separator="or">
@@ -68,6 +75,33 @@
   <sql id="Base_Column_List">
     dormcheck_id, dormcheck_message, dormcheck_date, apartroom_pid
   </sql>
+  <sql id="WithCheckRAndA_Column_List">
+    ap.apart_apa,ar.apartroom_abc,ar.apartroom_dorm,d.dormcheck_message,d.dormcheck_date
+  </sql>
+  <select id="selectByExampleWithCheckRAndA" resultMap="WithCheckRAndAResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="WithCheckRAndA_Column_List" />
+    from dormcheck d
+    LEFT JOIN apartroom ar on d.apartroom_pid=ar.apartroom_id
+    LEFT JOIN apart ap on ap.apart_id=ar.apart_pid
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKeyCheckWithCheckRAndA"  resultMap="WithCheckRAndAResultMap">
+    select
+    <include refid="WithCheckRAndA_Column_List" />
+    from dormcheck d
+    LEFT JOIN apartroom ar on d.apartroom_pid=ar.apartroom_id
+    LEFT JOIN apart ap on ap.apart_id=ar.apart_pid
+    where dormcheck_id = #{dormcheckId,jdbcType=INTEGER}
+  </select>
   <select id="selectByExample" parameterType="com.usts.college.bean.DormcheckExample" resultMap="BaseResultMap">
     select
     <if test="distinct">
